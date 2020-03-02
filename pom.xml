@@ -168,7 +168,7 @@
                     <!-- Keep your maven submodules at the same version as the parent POM -->
                     <autoVersionSubmodules>false</autoVersionSubmodules>
                     <pushFeatures>false</pushFeatures>
-                    <pushReleases>true</pushReleases>
+                    <pushReleases>false</pushReleases>
                     <pushHotfixes>false</pushHotfixes>
                     <flowInitContext>
                         <masterBranchName>master</masterBranchName>
