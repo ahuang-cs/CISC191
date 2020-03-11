@@ -17,6 +17,7 @@ public class Student {
     public List<Disease> getContagiousDiseasesByDay(int day) {
         List<Disease> diseases = new ArrayList<>();
         // TODO: fill this out
+        
 
         return diseases;
     }
