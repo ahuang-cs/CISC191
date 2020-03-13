@@ -12,7 +12,7 @@
   <dependencies>
 		<dependency>
 			<groupId>edu.sdccd.cisc191</groupId>
-			<artifactId>lab3</artifactId>
+			<artifactId>lab4</artifactId>
 			<version>${project.version}</version>
 		</dependency>
   </dependencies>
