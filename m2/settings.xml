@@ -29,8 +29,8 @@
   <servers>
     <server>
       <id>cisc191</id>
-      <username>$GITHUB_LOGIN</username>
-      <password>$GITHUB_TOKEN</password>
+      <username>$HEASLEYKR</username>
+      <password>$f1ebba0cc4a390e4c374d0d23f5560625099b24d</password>
     </server>
   </servers>
 </settings>
