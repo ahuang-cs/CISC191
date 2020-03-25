@@ -25,7 +25,12 @@ public class lab3 {
             Infection test = new Infection(covid19, day);
 
             // infect first student
-            Student[][] initialInfect = classRoom.getStudents();
+            Student[][] initialInfect = new Student[4][10];
+            for ( int row = 0; row < 4; row++ ) {
+                for ( int col = 1; col < 10; col++ ) {
+                    for(int sID = 0; sID < 4*10; sID++) {
+                        initialInfect[row][col] = new Student(sID, "Unnamed");
+            initialInfect = classRoom.getStudents();
             initialInfect[row][seat].setHealth('X');
 
             // loop on keypress: set Day, process Student infections, print class attendance seating chart
