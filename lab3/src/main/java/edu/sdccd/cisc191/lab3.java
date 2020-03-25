@@ -26,10 +26,13 @@ public class lab3 {
 
             // infect first student
             Student[][] initialInfect = new Student[4][10];
-            for ( int row = 0; row < 4; row++ ) {
-                for ( int col = 1; col < 10; col++ ) {
-                    for(int sID = 0; sID < 4*10; sID++) {
+            for ( int ro = 0; ro < 4; row++ ) {
+                for (int col = 1; col < 10; col++) {
+                    for (int sID = 0; sID < 4 * 10; sID++) {
                         initialInfect[row][col] = new Student(sID, "Unnamed");
+                    }
+                }
+            }
             initialInfect = classRoom.getStudents();
             initialInfect[row][seat].setHealth('X');
 
