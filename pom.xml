@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>edu.sdccd.cisc191</groupId>
     <artifactId>labs</artifactId>
-    <version>1.0.0</version>
+   <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>
